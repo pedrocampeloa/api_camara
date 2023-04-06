@@ -1,1 +1,47 @@
-{"blocos": {"path": "/api_camara\\dados\\blocos", "sub_flags": [null, "id"]}, "deputados": {"path": "/api_camara\\dados\\deputados", "sub_flags": [null, "id", "despesas", "discursos", "eventos", "frentes", "ocupacoes", "orgaos", "profissoes", "lideres", "mesa", "codSituacao", "situacoesDeputado"]}, "eventos": {"path": "/api_camara\\dados\\eventos", "sub_flags": [null, "id", "deputados", "orgaos", "pauta", "votacoes", "codSituacaoEventos", "codTipoEvento", "situacoesEvento", "tiposEvento"]}, "frentes": {"path": "/api_camara\\dados\\frentes", "sub_flags": [null, "id", "membros"]}, "legislaturas": {"path": "/api_camara\\dados\\legislaturas", "sub_flags": ["lideres", "mesa"]}, "lideres": {"path": "/api_camara\\dados\\lideres", "sub_flags": ["legislaturas", "partidos"]}, "orgaos": {"path": "/api_camara\\dados\\orgaos", "sub_flags": [null, "id", "eventos", "membros", "votacoes", "codSituacao", "situacoesOrgao"]}, "partidos": {"path": "/api_camara\\dados\\partidos", "sub_flags": [null, "id", "lideres", "membros"]}, "proposicoes": {"path": "/api_camara\\dados\\proposicoes", "sub_flags": [null, "id", "autores", "relacionadas", "temas", "tramitacoes", "votacoes"]}, "referencias": {"path": "/api_camara\\dados\\referencias", "sub_flags": ["deputados", "deputados/codSituacao", "deputados/codTipoProfissao", "deputados/siglaUF", "deputados/tipoDespesa", "eventos", "eventos/codSituacaoEvento", "eventos/codTipoEvento", "orgaos", "orgaos/codSituacao", "orgaos/codTipoOrgao", "proposicoes", "proposicoes/codSituacao", "proposicoes/codTema", "proposicoes/codTipoAutor", "proposicoes/codTipoTramitacao", "proposicoes/siglaTipo", "situacoesDeputado", "situacoesEvento", "situacoesOrgao", "situacoesProposicao", "tiposAutor", "tiposProposicao", "tiposEvento", "tiposOrgao", "tiposTramitacao", "uf"]}, "votacoes": {"path": "/api_camara\\dados\\votacoes", "sub_flags": [null, "id", "orientacoes", "votos"]}}
+{"blocos": 
+    {"path": "/api_camara\\dados\\blocos", 
+     "sub_flags": [null, "id"]},
+ "deputados": 
+    {"path": "/api_camara\\dados\\deputados", 
+     "sub_flags": [null, "id", "despesas", "discursos", "eventos",
+                   "frentes", "ocupacoes", "orgaos", "profissoes",
+                   "lideres", "mesa", "codSituacao", "situacoesDeputado"]}, 
+ "eventos": 
+    {"path": "/api_camara\\dados\\eventos",
+     "sub_flags": [null, "id", "deputados", "orgaos", "pauta", 
+                   "votacoes", "codSituacaoEventos", "codTipoEvento", 
+                   "situacoesEvento", "tiposEvento"]}, 
+ "frentes": 
+    {"path": "/api_camara\\dados\\frentes",
+     "sub_flags": [null, "id", "membros"]},
+ "legislaturas": 
+    {"path": "/api_camara\\dados\\legislaturas", 
+     "sub_flags": ["lideres", "mesa"]},
+ "lideres": 
+    {"path": "/api_camara\\dados\\lideres",
+     "sub_flags": ["legislaturas", "partidos"]}, 
+ "orgaos":
+    {"path": "/api_camara\\dados\\orgaos", 
+     "sub_flags": [null, "id", "eventos", "membros", 
+                   "votacoes", "codSituacao", "situacoesOrgao"]}, 
+ "partidos": 
+    {"path": "/api_camara\\dados\\partidos", 
+     "sub_flags": [null, "id", "lideres", "membros"]}, 
+ "proposicoes": 
+    {"path": "/api_camara\\dados\\proposicoes", 
+     "sub_flags": [null, "id", "autores", "relacionadas", 
+                   "temas", "tramitacoes", "votacoes"]}, 
+ "referencias": 
+    {"path": "/api_camara\\dados\\referencias", 
+     "sub_flags": ["deputados", "deputados/codSituacao", "deputados/codTipoProfissao", 
+                   "deputados/siglaUF", "deputados/tipoDespesa", "eventos",
+                   "eventos/codSituacaoEvento", "eventos/codTipoEvento", 
+                   "orgaos", "orgaos/codSituacao", "orgaos/codTipoOrgao",
+                   "proposicoes", "proposicoes/codSituacao", "proposicoes/codTema",
+                   "proposicoes/codTipoAutor", "proposicoes/codTipoTramitacao", 
+                   "proposicoes/siglaTipo", "situacoesDeputado", "situacoesEvento", 
+                   "situacoesOrgao", "situacoesProposicao", "tiposAutor", "tiposProposicao",
+                   "tiposEvento", "tiposOrgao", "tiposTramitacao", "uf"]}, 
+ "votacoes": 
+    {"path": "/api_camara\\dados\\votacoes", "sub_flags": [null, "id", "orientacoes", "votos"]}
+}
