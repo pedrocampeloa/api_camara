@@ -1,5 +1,5 @@
 # api_camara
-Scrape open data of the Brazilian Chamber of Deputies
+Scrape open data of the Brazilian Chamber of Deputies. 
 
 
 **camara_api** class collects information on the https://dadosabertos.camara.leg.br/api/v2/
@@ -47,3 +47,6 @@ website in a more practical and faster way.
          'orgaosDeputados-L53', 'orgaosDeputados-L54',
          'orgaosDeputados-L55', 'orgaosDeputados-L56',
          'orgaosDeputados-L57']
+
+
+Json flags_.json contains all blocks, sub_itens for each block and a possible path to help the full scrape.
