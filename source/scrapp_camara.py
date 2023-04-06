@@ -20,20 +20,9 @@ class camara_api:
     
     The parameters calling the class are the current legislature (legis) and a 
     flag that indicates which block is wanting to be collected. 
-    Block options are:
-        - blocos
-        - deputados
-        - eventos
-        - frentes
-        - legislaturas
-        - partidos
-        - proposicoes
-        - votacoes
-        - orgaos
-        - lederes
+    Block options are ['blocos','deputados','eventos','frentes', 'legislaturas','partidos','proposicoes','votacoes','orgaos','lideres']
     
-    Each block has its specific list of sub-items    
-    
+    Each block has its specific list of sub-items        
     The scrapp_data function collects data automatically. The function parameters are:
     
         - sub_flag: sub item of each block (eg for the deputies block, the sub_flag can be expenses, speeches, id, etc)
