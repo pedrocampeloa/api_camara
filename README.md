@@ -33,3 +33,17 @@ website in a more practical and faster way.
      The function parameters are:
          - flag: which file type is wanted to get. E.g proposicoes, proposicoesTemas, legislaturas, orgaos, deputados, etc.
          - year_list: if the flag above needs a year parameter in the collection, this list passes the desired years. default=None
+
+     The full list os possible flags is: 
+        ['proposicoes', 'proposicoesTemas', 'proposicoesAutores', 'votacoes', 
+         'votacoesOrientacoes', 'votacoesVotos','votacoesObjetos','votacoesProposicoes',
+         'eventos', 'eventosOrgaos','eventosPresencaDeputados',
+         'eventosRequerimentos', 'licitacoes', 'licitacoesContratos',
+         'licitacoesItens', 'licitacoesPedidos','licitacoesPropostas',
+         'frentes', 'legislaturas','legislaturasMesas',
+         'deputados', 'deputadosOcupacoes','deputadosProfissoes',
+         'funcionarios', 'tecadTermos','tecadCategorias','orgaos',
+         'orgaosDeputados-L51', 'orgaosDeputados-L52',
+         'orgaosDeputados-L53', 'orgaosDeputados-L54',
+         'orgaosDeputados-L55', 'orgaosDeputados-L56',
+         'orgaosDeputados-L57']
