@@ -17,7 +17,7 @@ website in a more practical and faster way.
         - proposicoes
         - votacoes
         - orgaos
-        - lederes
+        - lideres
 
     Each block has its specific list of sub-items    
 
